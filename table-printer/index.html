@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/script.js"></script>
+	<title>Hello</title>
+	<style>
+		label,button{
+			display: block;
+			margin: 15px 0px;
+		}
+
+		div{
+			border: 1px solid white;
+			padding: 2px;
+			text-align: center;
+		}
+		body {
+  font-family: Tahoma, sans-serif;
+  background-color: black;
+  color: white;
+}
+	</style>
+</head>
+<body>
+<h1>Table Printer</h1>
+<fieldset>
+<legend>Input</legend>
+<label for="givnum">Enter Number for which your want to print its table <input id="givnum" type="text"></label>
+<label for="givrng">Enter Number for how long your table to be printed <input id="givrng" type="text"></label>
+</fieldset>
+<button id="generate">Print Table</button>
+<div id="outtable">
+
+</div>
+</body>
+</html>
